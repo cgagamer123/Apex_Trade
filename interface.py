@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Aimbot Predictor", layout="wide")
 st.title("📈 Aimbot Stock Predictor")
 
-# Input
 ticker = st.text_input("Enter Stock Ticker (e.g., AAPL, TSLA)", value="AAPL").upper()
 
 if st.button("Get Prediction") and ticker:

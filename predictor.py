@@ -5,7 +5,7 @@ import os
 import yfinance as yf
 import pandas as pd
 
-MODEL_URL = "https://slinycjjbrgxjnyqspzp.supabase.co/storage/v1/object/public/models//model.pkl"
+MODEL_URL = "https://slinycjjbrgxjnyqspzp.supabase.co/storage/v1/object/public/models/model.pkl"
 MODEL_PATH = "model.pkl"
 
 def download_model():
